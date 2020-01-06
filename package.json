@@ -1,0 +1,19 @@
+{
+  "name": "webpack-hmr-sourcemaps",
+  "version": "1.0.6",
+  "description": "Enables HMR fast-rebuild (for NodeJS) with inline eval sourcemaps, while preserving stacktraces",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Olivier Guimbal",
+  "license": "ISC",
+  "repository": {
+    "url": "git@github.com:oguimbal/webpack-hmr-sourcemaps.git"
+  },
+  "dependencies": {
+    "@oguimbal/source-map-support": "^0.5.16"
+  },
+  "peerDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-sources": "^1.4.3"
+  }
+}
