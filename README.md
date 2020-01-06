@@ -11,7 +11,12 @@ When using webpack HMR, if you want source maps, you have two options:
 This plugin solves it by replacing the sourcemap plugin and making eval sourcemaps work for real.
 
 
+
 # Usage
+
+```
+npm i webpack-hmr-sourcemaps -D
+```
 
 **DO NOT REGISTER [source-map-support](https://www.npmjs.com/package/source-map-support) when using this plugin.**
 
