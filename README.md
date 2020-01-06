@@ -3,9 +3,12 @@
 **NB: Only use this plugin when serving a NodeJS app from Webpack HMR**
 
 When using webpack HMR, if you want source maps, you have two options:
-    - `devtool: 'source-map'` or equivalent => takes a long time to recompile (when watching changes)
-    - `devtool: 'eval-source-maps'` or equivalent => broken stacktraces, wrong files in maps.
 
+- `devtool: 'source-map'` or equivalent => takes a long time to recompile (when watching changes)
+- `devtool: 'eval-source-maps'` or equivalent => broken stacktraces, wrong files in maps.
+
+
+This plugin solves it by replacing the sourcemap plugin and making eval sourcemaps work for real.
 
 
 # Usage
